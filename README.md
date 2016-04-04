@@ -81,3 +81,7 @@ My Android code snippets collection.
   - Break into teams and discuss. You have 7 minutes to discuss amongst your group.
   - Each team will take one minute to present to their class their design.
   - Instructors wills provide critique and feedback to each group after you present.
+
+# Views
+
+We are defining our entire UI within XML files. These XML files are then "inflated" into live Java View objects. It's also possible to create your layout in code at runtime, but using XML is considered best practice - and has many significant advantages you'll learn about throughout the course.
