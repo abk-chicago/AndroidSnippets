@@ -28,11 +28,11 @@ Package names for applications use the reverse DNS structure. This convention is
 
 Let's become familiar with a few common attributes (which are better known as properties of an object) that we'll see.
 
-* `layout_width` with values such as `match_parent` and `wrap_content`
+* `layout_width` with values such as `match_parent` (the content will match the parent's size) and `wrap_content` (only as large as content requires)
 * `layout_height` with values such as `match_parent` and `wrap_content`
 * `padding` with values measured using `dp`
-* `orientation` with values such as `horizontal` and `vertical`
-* `text` with any **String** value, such as `Hello world!` or `Hi, grandpa!`
+* `orientation` with values that allow content to be rendered in a `horizontal` or `vertical` fashion
+* `text` with any **String** value, such as `Hello world!` or `Hi, grandpa!` 
 
 ##### Widgets are written as XML
 
