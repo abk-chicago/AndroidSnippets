@@ -33,3 +33,11 @@ Let's become familiar with a few common attributes (which are better known as pr
 * `padding` with values measured using `dp`
 * `orientation` with values such as `horizontal` and `vertical`
 * `text` with any **String** value, such as `Hello world!` or `Hi, grandpa!`
+
+##### Widgets are written as XML
+
+Each widget is declared as an **XML element**. Each _attribute_ is an property of that widget. 
+
+## View Hierarchy
+
+Widgets compose a hierarchy of `View` objects named **view hierarchy**. There will always be a _root_ (or base) element. This will typically be a layout (`LinearLayout`, `RelativeLayout`, `FrameLayout`, or `TableLayout`). These _layouts_ inherit from a subclass of `View` named `ViewGroup`. Widgets are then contained inside of these _groups of views_, or as we know them, `ViewGroup`s.
