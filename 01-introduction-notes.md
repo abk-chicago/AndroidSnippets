@@ -11,3 +11,11 @@
 #### App Names: The Reverse DNS
 
 Package names for applications use the reverse DNS structure. This convention is designed to create application package names uniqure.
+
+#### Targetting SDK Version 23+
+
+* If we target Marshmallow (Android 6.0) whichn is SDK version 23 or newer...
+* We have to support runtime applicaiton permission requests.
+* This can make life really confused at the start.
+* Let's not target Marshmallow... _yet_.
+* **Soon** we will dive into the deliciousness of Marshmallow. _Core skills first_.
