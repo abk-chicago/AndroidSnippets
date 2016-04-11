@@ -8,3 +8,6 @@
 * A layout is made of elements defined in XML.
 * **Activities** are the Java implementation and management of the **Layout** you define in XML.
 
+#### App Names: The Reverse DNS
+
+Package names for applications use the reverse DNS structure. This convention is designed to create application package names uniqure.
