@@ -41,3 +41,11 @@ Each widget is declared as an **XML element**. Each _attribute_ is an property o
 ## View Hierarchy
 
 Widgets compose a hierarchy of `View` objects named **view hierarchy**. There will always be a _root_ (or base) element. This will typically be a layout (`LinearLayout`, `RelativeLayout`, `FrameLayout`, or `TableLayout`). These _layouts_ inherit from a subclass of `View` named `ViewGroup`. Widgets are then contained inside of these _groups of views_, or as we know them, `ViewGroup`s.
+
+## Strings
+
+We shouldn't write any direct strings into our project. It is bad practice and can make updating things down the road harder. Every Android application may (and likely will) contain a `app/res/values` folder. Inside is a `strings.xml` file. You'll notice a `Resources` element with children strings. You may add strings using the `snake_case` syntax as names. Each *name* may then be referenced under the `R.string` namespace.
+
+##### WARNING 
+
+_Do not delete any Strings you are unfamiliar with. Some of these are generated when your project is created~_
