@@ -32,3 +32,5 @@ visibility  | setVisibility(int)  | Sets if a view is visible, invisible, or gon
   - `|<-- 16dp -->[Sun Icon ]<-- 16dp --> [6/7 Sunny in Chicago]<-- 16dp -->|`
   - `|             <-- ^ 16dp v -->                                         ]`
   - `|<-- 16dp -->[Rain Icon]<-- 16dp --> [6/8 Rain in Chicago ]<-- 16dp -->|`
+- All objects should feel natural and layered; each widget is made of paper
+- Design should be simple, easy to use, and natural
